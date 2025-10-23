@@ -1,7 +1,7 @@
 [project]
 name = "conv2d-py"
 version = "0.1.0"
-description = "2D卷积算法实现"
+description = "2D Convolution Algorithm Implementation"
 requires-python = ">=3.8"
 dependencies = [
     "numpy>=1.20.0",

@@ -1,51 +1,51 @@
-# Conv2D - 2D卷积算法实现
+# Conv2D - 2D Convolution Algorithm Implementation
 
-使用NumPy实现的2D卷积算法，展示了卷积神经网络中的核心操作。
+2D convolution algorithm implemented using NumPy, demonstrating the core operation in convolutional neural networks.
 
-## 快速开始
+## Quick Start
 
-使用 `uv` 可以直接运行脚本，无需手动安装依赖：
+Use `uv` to run the script directly without manually installing dependencies:
 
 ```bash
-# 运行卷积算法演示（自动安装numpy依赖）
+# Run convolution algorithm demonstration (automatically installs numpy dependency)
 uv run conv2d.py
 ```
 
-脚本包含了内联依赖声明（PEP 723），`uv` 会自动处理依赖安装。
+The script includes inline dependency declarations (PEP 723), and `uv` will automatically handle dependency installation.
 
-## 其他运行方式
+## Other Ways to Run
 
-### 使用 uv 创建虚拟环境
+### Using uv to create virtual environment
 
 ```bash
-# 创建虚拟环境并安装依赖
+# Create virtual environment and install dependencies
 uv venv
 source .venv/bin/activate  # macOS/Linux
 # .venv\Scripts\activate   # Windows
 
-# 安装依赖
+# Install dependencies
 uv pip install numpy
 
-# 运行脚本
+# Run script
 python conv2d.py
 ```
 
-### 直接使用 Python
+### Using Python directly
 
 ```bash
-# 需要先安装 numpy
+# Need to install numpy first
 pip install numpy
 python conv2d.py
 ```
 
-## 文件说明
+## File Description
 
-- `conv2d.py` - 使用NumPy的高效实现，支持单通道和多通道卷积
-- `pyproject.toml` - 项目配置文件
+- `conv2d.py` - Efficient implementation using NumPy, supports single and multi-channel convolution
+- `pyproject.toml` - Project configuration file
 
-## 功能特性
+## Features
 
-- 2D卷积操作实现
-- 支持自定义步长（stride）和填充（padding）
-- 多种卷积核示例（边缘检测、模糊、Sobel算子等）
-- 固定输入和卷积核用于演示
+- 2D convolution operation implementation
+- Support for custom stride and padding
+- Multiple kernel examples (edge detection, blur, Sobel operator, etc.)
+- Fixed input and kernels for demonstration
